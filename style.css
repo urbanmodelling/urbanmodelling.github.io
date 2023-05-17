@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    /* font-family: 'Aladin';font-size: 20px; */
+    font-family: 'Abhaya Libre';font-size: 20px;
+
+}
+
+.background {
+    /* background: rgb(30, 30, 245); */
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 15px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
